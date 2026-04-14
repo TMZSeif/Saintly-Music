@@ -226,7 +226,7 @@ export default function MusicPage() {
 					"Love is like a cake, it’s diabetic.",
 					"White boys ahead, attack at your leisure.",
 					"rawr x3 nuzzles pounces on u uwu u so warm~!"
-				][Math.floor(Math.random() * 1)])
+				][Math.floor(Math.random() * 6)])
 				getPlaylist("PL5w31yQxvxGj4sQmPsoT_XpCUIxLrRkYt")
 				break;
 		}
