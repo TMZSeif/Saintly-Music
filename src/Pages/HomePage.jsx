@@ -7,20 +7,28 @@ export default function HomePage() {
 				<h1>A Saint's Music Player</h1>
 			</div>
 			<div className="row">
-				<div onClick={() => window.location.assign("/cynthia")} className="col cynth border border-4 border-black">
-					<Link className="link" to="/cynthia"><h1>Cynthia</h1></Link>
-				</div>
-				<div onClick={() => window.location.assign("/tmzseif")} className="col tmzseif border border-4 border-black">
-					<Link className="link" to="/tmzseif"><h1>TMZSeif</h1></Link>
-				</div>
+				<Link className="col cynth border border-4 border-black link" to="/cynthia">
+					<div>
+						<h1>Cynthia</h1>
+					</div>
+				</Link>
+				<Link className="col tmzseif border border-4 border-black link" to="/tmzseif">
+					<div>
+						<h1>TMZSeif</h1>
+					</div>
+				</Link>
 			</div>
 			<div className="row">
-				<div onClick={() => window.location.assign("/sasha")} className="col sasha border border-4 border-black">
-					<Link className="link" to="/sasha"><h1>Sasha</h1></Link>
-				</div>
-				<div onClick={() => window.location.assign("/veil")} className="col veil border border-4 border-black">
-					<Link className="link" to="/veil"><h1>Veil</h1></Link>
-				</div>
+				<Link className="col sasha border border-4 border-black link" to="/sasha">
+					<div>
+						<h1>Sasha</h1>
+					</div>
+				</Link>
+				<Link className="col veil border border-4 border-black link" to="/veil">
+					<div>
+						<h1>Veil</h1>
+					</div>
+				</Link>
 			</div>
 		</div>
 	)

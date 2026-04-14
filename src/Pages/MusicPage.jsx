@@ -284,7 +284,7 @@ export default function MusicPage() {
 								<div className="btn-group" role="group">
 									<button type="button" onClick={shuffleChange} className="btn btn-green"><i className={`fa-solid fa-shuffle ${shuffle ? "on" : ""}`}></i></button>
 									<button type="button" onClick={changeLoop} className="btn btn-green"><i className={`fa-solid fa-repeat ${loop ? "on" : ""}`}></i></button>
-									<Link to="/Saintly-Music" className="btn btn-green"><i className="fa-solid fa-arrow-left"></i></Link>
+									<Link to="/" className="btn btn-green"><i className="fa-solid fa-arrow-left"></i></Link>
 								</div>
 							</div>
 						</div>
